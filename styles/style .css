@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --color1: rgb(6, 6, 36);
+  }
+  
+  header,footer{
+    background-color: var(--color1);
+  }
+  #buttons button{
+    min-width: 45%;
+  }
+  #output{
+  min-height: 270px;
+  font-size: 20px;
+  }
+  #org-string{
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    font-size: 20px;
+  }
+  .buttons button {
+    min-width: 45%;
+  }
+  @media only screen and (max-width: 550px) {
+    .buttons button {
+      min-width: 70%;
+    }
+    #org-string,header, footer{
+      background-color: rgb(123, 255, 0);
+    }  
+    #org-string p {
+      color: rgb(255, 255, 255);
+      height: 100px;
+   
+    }  
+#row3, #output {
+  background-color: black;
+  color: white;
+}
+  }
